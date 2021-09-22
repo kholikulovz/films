@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono";
+}
+
+p {
+  font-family: "Lexend Deca";
+}
+
+.container {
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 689px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 311px;
+    margin: 10px;
+  }
+}
+.films {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.films__card-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.films__card {
+  width: 325px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: coral;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px black;
+  cursor: pointer;
+}
+.films__card:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+.films__card-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.films__card-title {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.header__title {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+
+.genre__menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+time {
+  display: block;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
