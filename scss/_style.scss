@@ -5,13 +5,14 @@
     justify-content: center;
     
     &__card-menu{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         // align-items: center;
         justify-content: center;
     }
     &__card{
-        width: 325px;
+        width: 320px;
         max-width: 100%;
         padding: 20px;
         border-radius: 5px;

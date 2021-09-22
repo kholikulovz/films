@@ -48,12 +48,13 @@ a {
   justify-content: center;
 }
 .films__card-menu {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .films__card {
-  width: 325px;
+  width: 320px;
   max-width: 100%;
   padding: 20px;
   border-radius: 5px;
