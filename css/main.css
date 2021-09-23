@@ -8,6 +8,7 @@
 
 body {
   font-family: "Space Mono";
+  background-color: black;
 }
 
 p {
@@ -48,6 +49,7 @@ a {
   justify-content: center;
 }
 .films__card-menu {
+  margin-top: 25px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +60,7 @@ a {
   max-width: 100%;
   padding: 20px;
   border-radius: 5px;
-  background-color: coral;
+  background-color: #f85419;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 15px;
@@ -77,25 +79,102 @@ a {
   border-radius: 5px;
 }
 .films__card-title {
+  color: white;
+  font-size: 28px;
   text-align: center;
   margin: 5px 0;
 }
 
 .header__title {
-  background-color: darkblue;
+  font-size: 40px;
+  background-color: #ac2e01;
   color: white;
   text-align: center;
+  margin-top: 0;
+  padding: 10px 0;
 }
 
 .genre__menu {
+  color: white;
+  font-size: 19px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
   margin-top: 10px;
+  margin-left: 5px;
 }
 
 time {
+  color: white;
   display: block;
   margin-top: 10px;
+  text-align: end;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+#search {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ac2e01;
+}
+#search:hover {
+  box-shadow: 5px 5px 15px #ac2e01;
+}
+#search:active {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+#select {
+  margin: 0 15px;
+  padding: 6px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #ac2e01;
+}
+#select:hover {
+  box-shadow: 5px 5px 15px #ac2e01;
+}
+#select:active {
+  transform: scale(1.02);
+  transition: 0.5s;
+}
+
+.film__option {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#btn {
+  background-color: #ac2e01;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: 0.5px solid black;
+  font-size: 20px;
+}
+#btn:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  background-color: white;
+  color: #ac2e01;
+  box-shadow: 5px 5px 15px black;
+}
+#btn:active {
+  transform: scale(1.02);
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
